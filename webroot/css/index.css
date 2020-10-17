@@ -59,19 +59,25 @@ image:nth-of-type(odd) {
   grid-row: 2/4;
   grid-column: 1/2; }
 
-.activity {
-  transform: rotate(90deg) translateX(50%);
-  grid-column: 2;
-  max-height: 13px;
-  margin: 0; }
-
 li {
-  display: grid; }
+  position: relative; }
 
 .activity {
   font-size: 10px;
   font-weight: 400;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin: 0;
+  position: absolute;
+  left: 100%; }
 
 .name {
   font-size: 14px; }
+
+.page-information {
+  font-size: 14px; }
+
+.page-information a {
+  color: #A9A9A9;
+  text-decoration: none; }
