@@ -1,3 +1,8 @@
+div {
+    padding-top: 66px;
+    padding-bottom: 84px;
+}
+
 img {    
     //  max-height: 261px;
     // max-width: 138px;
@@ -6,13 +11,17 @@ img {
     grid-row: 1;
 }
 
-image:nth-of-type(odd) {
-    grid-row: 2/4;
-    grid-column: 1/2;
-}
-
  li {
      position: relative;
+     max-width: 95%;
+}
+
+li:nth-of-type(odd) {
+    padding-bottom: calc(53px - 16px);
+}
+
+li:nth-of-type(even) {
+    padding-top: calc(53px - 16px);
 }
 
 .activity {
@@ -30,7 +39,20 @@ image:nth-of-type(odd) {
     font-size: 14px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1100px) {
+    div {
+        padding-top: 96px;
+    }
+
+    ul {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 56px;
+    }
+
+    ul > li:nth-of-type(5) {
+        padding-top: 106px;
+    }
+
     .name {
         font-size: 18px;
     }

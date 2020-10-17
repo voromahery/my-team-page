@@ -4,14 +4,13 @@
 
 .header-heading {
     font-weight: 600;
-    font-size: 18px;
 }
 
 .header-article-paragraph {
     font-size: 14px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 1100px) {
     .header {
         display: flex;
         flex-direction: row;
@@ -25,8 +24,12 @@
         font-size: 18px;
     }
 
-    .header-article-paragraph,
+    
      .heading {
-         flex-basis: 50%;
+         flex-basis: 55%;
+     }
+
+     .header-article {
+         flex-basis: 45%;
      }
 }
