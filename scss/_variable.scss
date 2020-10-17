@@ -1,0 +1,21 @@
+$padding-inline-desktop: 240px;
+$padding-inline-mobile: 19px;
+// Mixins
+@mixin reset-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+@mixin container {
+    padding-left: 240px;
+    padding-right: 240px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+// Break-point
+$larger-breakpoint: 1200px;
+
+// Font-path
+$font-path: "../fonts";

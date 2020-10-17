@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Poppins';
     src: local('Poppins Normal'), local('Poppins-Normal'),
-         url('../fonts/poppins-normal.woff2'),
-         url('../fonts/poppins-normal.woff');
+         url('#{$font-path}/poppins-normal.woff2'),
+         url('#{$font-path}/poppins-normal.woff');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Poppins';
     src: local('Poppins Semi-bold'), local('Poppins Semi Bold'), local('Poppins-Semi-Bold'),
-         url('../fonts/poppins-semibold.woff2'),
-         url('../fonts/poppins-semibold.woff');
+         url('#{$font-path}/poppins-semibold.woff2'),
+         url('#{$font-path}/poppins-semibold.woff');
     font-weight: 600;
 }
 
@@ -19,15 +19,15 @@
 @font-face {
     font-family: 'PT Serif';
     src: local('PT Serif Normal'), local('PT-Serif-Normal'),
-         url('../fonts/ptserif-normal.woff2'),
-         url('../fonts/ptserif-normal.woff');
+         url('#{$font-path}/ptserif-normal.woff2'),
+         url('#{$font-path}/ptserif-normal.woff');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'PT Serif';
     src: local('PT Serif Bold'), local('PT-Serif-Normal'),
-         url('../fonts/ptserif-bold.woff2'),
-         url('../fonts/ptserif-bold.woff');
+         url('#{$font-path}/ptserif-bold.woff2'),
+         url('#{$font-path}/ptserif-bold.woff');
     font-weight: 600;
 }
