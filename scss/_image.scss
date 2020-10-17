@@ -1,6 +1,6 @@
 @import "./variable.scss";
 
-div {
+.images-container {
     padding-top: 66px;
     padding-bottom: 84px;
     padding-left: $padding-inline-mobile;
@@ -44,7 +44,7 @@ li:nth-of-type(even) {
 }
 
 @media (min-width: $larger-breakpoint) {
-    div {
+    .images-container {
         padding-top: 96px;
     }
 
