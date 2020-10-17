@@ -29,3 +29,13 @@ image:nth-of-type(odd) {
 .name {
     font-size: 14px;
 }
+
+@media (min-width: 700px) {
+    .name {
+        font-size: 18px;
+    }
+
+    .activity {
+        font-size: 12px;
+    }
+}

@@ -2,15 +2,9 @@ body {
     font-family: 'Poppins';
 }
 
-.masthead-heading,
+.heading,
 .activity {
     font-family: 'PT Serif';
-}
-
-.activity {
-    font-size: 10px;
-    font-weight: 400;
-    text-transform: uppercase;
 }
 
 ul {
@@ -18,7 +12,7 @@ ul {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem;
+    grid-gap: 27px;
 }
 
 .name {

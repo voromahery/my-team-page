@@ -21,26 +21,21 @@
 body {
   font-family: 'Poppins'; }
 
-.masthead-heading,
+.heading,
 .activity {
   font-family: 'PT Serif'; }
-
-.activity {
-  font-size: 10px;
-  font-weight: 400;
-  text-transform: uppercase; }
 
 ul {
   padding: 0;
   list-style: none;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem; }
+  grid-gap: 27px; }
 
 .name {
   font-weight: 600; }
 
-.masthead-heading {
+.heading {
   font-size: 36px; }
 
 .header-heading {
@@ -49,6 +44,18 @@ ul {
 
 .header-article-paragraph {
   font-size: 14px; }
+
+@media (min-width: 700px) {
+  .header {
+    display: flex;
+    flex-direction: row; }
+  .header-article {
+    max-width: 439px; }
+  .header-article-paragraph {
+    font-size: 18px; }
+  .header-article-paragraph,
+  .heading {
+    flex-basis: 50%; } }
 
 img {
   max-width: 100%;
@@ -74,6 +81,12 @@ li {
 
 .name {
   font-size: 14px; }
+
+@media (min-width: 700px) {
+  .name {
+    font-size: 18px; }
+  .activity {
+    font-size: 12px; } }
 
 .page-information {
   font-size: 14px; }

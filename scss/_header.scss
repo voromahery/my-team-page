@@ -1,4 +1,4 @@
-.masthead-heading {
+.heading {
     font-size: 36px;
 }
 
@@ -9,4 +9,24 @@
 
 .header-article-paragraph {
     font-size: 14px;
+}
+
+@media (min-width: 700px) {
+    .header {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .header-article {
+        max-width: 439px;
+    }
+
+    .header-article-paragraph {
+        font-size: 18px;
+    }
+
+    .header-article-paragraph,
+     .heading {
+         flex-basis: 50%;
+     }
 }
