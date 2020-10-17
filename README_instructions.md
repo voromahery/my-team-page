@@ -23,7 +23,7 @@
 ## Table of Contents
 
 -   [Overview](#overview)
-    -   [Built With](#built-with)
+    -   [Built With](https://reactjs.org/)
 -   [Features](#features)
 -   [Contact](#contact)
 -   [Acknowledgements](#acknowledgements)
@@ -31,34 +31,21 @@
 <!-- OVERVIEW -->
 
 ## Overview
+### Desktop
+![screenshot](my-team-page-desktop.png)
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
-
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
-
--   Where can I see your demo?
--   What was your experience?
--   What have you learned/improved?
--   Your wisdom? :)
+-   Feel free to visit [my team page](https://compassionate-tereshkova-25bc80.netlify.app) to see the demo.
+-   I struggled a bit to find the error in the `img` tag but actually, I forgot to close the `img` tag. That is because I used to write code in a HTML way `<img src="" alt="">` instead of `<img src="" alt="" />`
+-   What I have learned is, all void elements should always be closed.
 
 ### Built With
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
 -   [React](https://reactjs.org/)
--   [Vue.js](https://vuejs.org/)
--   [Tailwind](https://tailwindcss.com/)
 
 ## Features
-
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
-
-## Acknowledgements
-
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
+- [sass](https://sass-lang.com/)
+- [parcel](https://parceljs.org/)
 
 ## Contact
 
--   Website [your-website.com](https://{your-web-site-link})
--   GitHub [@your-username](https://{github.com/your-usermame})
--   Twitter [@your-twitter](https://{twitter.com/your-username})
+-   Website [H. Daniel Fabrice @ DevChallenges.io](https://compassionate-tereshkova-25bc80.netlify.app)
+-   GitHub [voromahery](https://github.com/voromahery/my-team-page)
