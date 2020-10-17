@@ -1,5 +1,8 @@
+@import "./variable.scss";
+
 .page-information {
     font-size: 14px;
+    padding-bottom: 30px;
 }
 
 .page-information a {
@@ -12,5 +15,6 @@
     footer {
         padding-left: 240px;
         padding-right: 240px;
+        text-align: center;
     }
 }
