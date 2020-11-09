@@ -28415,7 +28415,7 @@ function Footer() {
   return /*#__PURE__*/_react.default.createElement("footer", null, /*#__PURE__*/_react.default.createElement("p", {
     className: "page-information"
   }, /*#__PURE__*/_react.default.createElement("a", {
-    href: "./"
+    href: "https://compassionate-tereshkova-25bc80.netlify.app"
   }, "H. Daniel Fabrice @ DevChallenges.io")));
 }
 
@@ -28485,7 +28485,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56081" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50760" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

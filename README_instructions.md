@@ -47,5 +47,5 @@
 
 ## Contact
 
--   Website [H. Daniel Fabrice @ DevChallenges.io](https://compassionate-tereshkova-25bc80.netlify.app)
+-   Website [H. Daniel Fabrice @ DevChallenges.io](https://my-team-page-daniel.netlify.app/)
 -   GitHub [voromahery](https://github.com/voromahery/my-team-page)
