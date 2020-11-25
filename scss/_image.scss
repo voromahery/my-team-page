@@ -8,8 +8,6 @@
 }
 
 img {    
-    //  max-height: 261px;
-    // max-width: 138px;
     max-width: 100%;
     grid-column: 1;
     grid-row: 1;
@@ -21,11 +19,11 @@ img {
 }
 
 li:nth-of-type(odd) {
-    padding-bottom: calc(53px - 16px);
+    margin-bottom: calc(53px - 16px);
 }
 
 li:nth-of-type(even) {
-    padding-top: calc(53px - 16px);
+    margin-top: calc(53px - 16px);
 }
 
 .activity {
