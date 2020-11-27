@@ -79,11 +79,14 @@ ul {
 
 .images-container {
   padding-top: 66px;
-  padding-bottom: 84px;
-  padding-left: 19px;
-  padding-right: 19px; }
+  padding-bottom: 84px; }
 
 @media (min-width: 300px) {
+  .images-container {
+    padding-top: 66px;
+    padding-bottom: 84px;
+    padding-left: 19px;
+    padding-right: 19px; }
   img {
     max-width: 100%;
     grid-column: 1;

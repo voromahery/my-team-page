@@ -3,11 +3,17 @@
 .images-container {
   padding-top: 66px;
   padding-bottom: 84px;
-  padding-left: $padding-inline-mobile;
-  padding-right: $padding-inline-mobile;
 }
 
 @media (min-width: $mobile-breakpoint) {
+
+  .images-container {
+    padding-top: 66px;
+    padding-bottom: 84px;
+    padding-left: $padding-inline-mobile;
+    padding-right: $padding-inline-mobile;
+  }
+
   img {
     max-width: 100%;
     grid-column: 1;
