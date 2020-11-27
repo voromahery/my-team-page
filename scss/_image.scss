@@ -1,8 +1,8 @@
 @import "./variable.scss";
 
 .images-container {
-  padding-top: 66px;
-  padding-bottom: 84px;
+  padding-top: calc(66px / 2);
+  padding-bottom: calc(84px / 2);
 }
 
 .activity {
@@ -23,7 +23,6 @@ li {
 }
 
 @media (min-width: $mobile-breakpoint) {
-
   li {
     margin-top: 0;
     margin-bottom: 0;
@@ -72,7 +71,6 @@ li {
     text-orientation: mixed;
     margin: 0;
   }
-  
 }
 
 @media (min-width: $larger-breakpoint) {

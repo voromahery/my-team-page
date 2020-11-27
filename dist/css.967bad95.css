@@ -91,7 +91,14 @@ li,
 img {
   max-width: 100%; }
 
+li {
+  margin-top: 16px;
+  margin-bottom: 16px; }
+
 @media (min-width: 300px) {
+  li {
+    margin-top: 0;
+    margin-bottom: 0; }
   .images-container {
     padding-top: 66px;
     padding-bottom: 84px;

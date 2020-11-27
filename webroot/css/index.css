@@ -78,8 +78,8 @@ ul {
     flex-basis: 45%; } }
 
 .images-container {
-  padding-top: 66px;
-  padding-bottom: 84px; }
+  padding-top: calc(66px / 2);
+  padding-bottom: calc(84px / 2); }
 
 .activity {
   font-size: 10px;
