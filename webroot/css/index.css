@@ -83,20 +83,18 @@ ul {
   padding-left: 19px;
   padding-right: 19px; }
 
-img {
-  max-width: 100%;
-  grid-column: 1;
-  grid-row: 1; }
-
-li {
-  position: relative;
-  max-width: 95%; }
-
-li:nth-of-type(odd) {
-  margin-bottom: calc(53px - 16px); }
-
-li:nth-of-type(even) {
-  margin-top: calc(53px - 16px); }
+@media (min-width: 300px) {
+  img {
+    max-width: 100%;
+    grid-column: 1;
+    grid-row: 1; }
+  li {
+    position: relative;
+    max-width: 95%; }
+  li:nth-of-type(odd) {
+    margin-bottom: calc(53px - 16px); }
+  li:nth-of-type(even) {
+    margin-top: calc(53px - 16px); } }
 
 .activity {
   position: absolute;
