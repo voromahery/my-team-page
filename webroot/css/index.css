@@ -30,15 +30,18 @@ p {
   margin: 0; }
 
 ul {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 27px;
   list-style: none;
   padding: 0;
   margin: 0; }
 
 .name {
   font-weight: 600; }
+
+@media (min-width: 300px) {
+  ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 27px; } }
 
 @media (min-width: 1200px) {
   main {
@@ -48,13 +51,17 @@ ul {
     margin: auto; } }
 
 .heading {
-  font-size: 36px; }
+  font-size: 30px; }
 
 .header-heading {
   font-weight: 600; }
 
 .header-article-paragraph {
   font-size: 14px; }
+
+@media (min-width: 300px) {
+  .heading {
+    font-size: 36px; } }
 
 @media (min-width: 1200px) {
   .header {
@@ -86,10 +93,10 @@ li {
   max-width: 95%; }
 
 li:nth-of-type(odd) {
-  padding-bottom: calc(53px - 16px); }
+  margin-bottom: calc(53px - 16px); }
 
 li:nth-of-type(even) {
-  padding-top: calc(53px - 16px); }
+  margin-top: calc(53px - 16px); }
 
 .activity {
   position: absolute;

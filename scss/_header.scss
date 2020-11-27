@@ -1,7 +1,7 @@
 @import "./variable.scss";
 
 .heading {
-    font-size: 36px;
+    font-size: 30px;
 }
 
 .header-heading {
@@ -10,6 +10,12 @@
 
 .header-article-paragraph {
     font-size: 14px;
+}
+
+@media (min-width: $mobile-breakpoint) {
+    .heading {
+        font-size: 36px;
+    }
 }
 
 @media (min-width: $larger-breakpoint) {

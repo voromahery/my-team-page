@@ -15,14 +15,19 @@ p {
 }
 
 ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 27px;
     @include reset-list;
 }
 
 .name {
     font-weight: 600;
+}
+
+@media (min-width: $mobile-breakpoint) {
+    ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 27px;
+    }
 }
 
 @media (min-width: $larger-breakpoint) {
